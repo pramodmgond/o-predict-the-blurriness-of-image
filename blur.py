@@ -6,7 +6,7 @@ from PIL import Image
 from tensorflow.keras.utils import load_img,img_to_array
 import numpy as np
 
-models = keras.models.load_model("C:/Users/pramod/Desktop/CLOUDSEK/model1.h5") # load model
+models = keras.models.load_model("model1.h5") # load model
 
 #page configuration of the Streamlit app
 #specifies the title of the web page
