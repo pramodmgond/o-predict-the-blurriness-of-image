@@ -1,1 +1,1 @@
-# o-predict-the-blurriness-of-image
+# predict-the-blurriness-of-image
