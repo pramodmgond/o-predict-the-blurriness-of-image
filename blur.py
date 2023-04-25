@@ -49,7 +49,7 @@ if uploaded_file is not None:
     image_array =  image_array/255 
     
     sharpness = measure_sharpness(np.array(image))
-    st.write("Sharpness of the Images is : ", sharpness)
+    st.write("Sharpness of the Images is: {:.4f}".format(sharpness))
 
     # which returns an array of probabilities for each class
     # class with the highest probability
